@@ -36,19 +36,21 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 module10
 ├── src/app
 │   ├── favicon.ico // This is an example icon that you can use in your app
-│   ├── index.js // This is the root component of your app
+│   ├── global.css // This is where you can import global CSS files that affect all elements on the
 │   ├── layout.js // This is a layout component that wraps your page components
 │   └── page.js // This is a page component that renders the content of your app
 ├── public // This is where you can store static assets like images, fonts, icons, etc.
 │   ├── next.svg // This is an example icon that you can use in your app
 │   └── vercel.svg // This is an example icon that you can use in your app
-├── .eslintrc.json // This is a configuration file for ESLint
+├── .eslintrc.json // This is where you can configure ESLint, which is a tool that helps you find and fix problems in your JavaScript code
 ├── .gitignore // This is a file that tells Git which files or folders to ignore
-├── jsconfig.json // This is a configuration file for JavaScript projects
-├── next.config.js // This is the configuration file for Next.js
-├── package-lock.json // 
-├── package.json // This is the package manifest for your project
-├── postcss.config.js // This is a configuration file for PostCSS
-├── README.md // This is a markdown file that provides information about your project
-├── tailwind.config.js // This is a configuration file for Tailwind CSS
+├── jsconfig.json // This is where you can configure some features of the JavaScript language service, such as enabling absolute imports or aliases for 
+│   your modules
+├── next.config.js // This is where you can customize some advanced features of Next.js, such as adding plugins, enabling experimental features, 
+│   modifying webpack config, etc.
+├── package-lock.json // This is an automatically generated file that locks the versions of the dependencies for your project 
+├── package.json // This is where you can manage the dependencies and scripts of your project
+├── postcss.config.js // This is where you can configure PostCSS, which is a tool that transforms CSS with plugins
+├── README.md // This is where you can write some documentation or instructions for your project
+├── tailwind.config.js // This is where you can configure Tailwind CSS, which is a utility-first CSS framework that helps you style your app
 └── node_modules // This is where the dependencies for your project are installed
