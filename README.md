@@ -32,3 +32,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+module10
+├── src/app
+│   ├── favicon.ico // This is an example icon that you can use in your app
+│   ├── index.js // This is the root component of your app
+│   ├── layout.js // This is a layout component that wraps your page components
+│   └── page.js // This is a page component that renders the content of your app
+├── public // This is where you can store static assets like images, fonts, icons, etc.
+│   ├── next.svg // This is an example icon that you can use in your app
+│   └── vercel.svg // This is an example icon that you can use in your app
+├── .eslintrc.json // This is a configuration file for ESLint
+├── .gitignore // This is a file that tells Git which files or folders to ignore
+├── jsconfig.json // This is a configuration file for JavaScript projects
+├── next.config.js // This is the configuration file for Next.js
+├── package-lock.json // 
+├── package.json // This is the package manifest for your project
+├── postcss.config.js // This is a configuration file for PostCSS
+├── README.md // This is a markdown file that provides information about your project
+├── tailwind.config.js // This is a configuration file for Tailwind CSS
+└── node_modules // This is where the dependencies for your project are installed
